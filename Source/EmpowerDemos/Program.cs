@@ -11,6 +11,7 @@ namespace ConsoleApp_Sort
         public static void Main()
         {
             LinqSort.DemoLinqSort();
+            LinqSearch.DemoWhere();
 
         }     
     }

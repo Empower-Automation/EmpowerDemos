@@ -33,6 +33,7 @@ namespace EmpowerDemos.Demos
             CityInfo Paris = new CityInfo("Paris", "France", 2193031);
             List<CityInfo> cities = new List<CityInfo>() { NYC, Det, Paris };
 
+
             Console.WriteLine("排序之前！");
             DisplayArray(cities);
             //非原地排序:cities保持不变，生成一个新的list，升序排列
